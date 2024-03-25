@@ -2198,6 +2198,8 @@ namespace PoorMansTSqlFormatterLib.Parsers
              **/
             KeywordList.Add("LIMIT", KeywordType.FunctionKeyword);
             KeywordList.Add("CASEACCENT_NORMALIZE", KeywordType.FunctionKeyword);
+            KeywordList.Add("OFFSET", KeywordType.FunctionKeyword);
+            KeywordList.Add("ROWS", KeywordType.OtherKeyword);
         }
 
         public enum KeywordType
